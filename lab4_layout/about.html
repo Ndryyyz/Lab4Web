@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html" class="active">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="wrapper">
+            <section id="main">
+                <h2 class="page-title">Tentang Saya</h2>
+                <article class="profile entry">
+                    <img src="images/foto-profil.jpeg" alt="Foto profil">
+                    <p><strong>Nama:</strong> Muhamad Prasetyo Andri Wibowo</p>
+                    <p><strong>NIM:</strong> 312510181</p>
+                    <p><strong>Program Studi:</strong> Teknik Informatika</p>
+                    <p><strong>Kelas:</strong> I251B</p>
+                    <p>Saya mahasiswa Teknik Informatika yang sedang belajar pemrograman web. Pada praktikum ini saya belajar membuat layout halaman web menggunakan HTML5 semantic element dan CSS float.</p>
+                </article>
+
+                <hr class="divider" />
+
+                <h2 class="page-title">Portofolio</h2>
+                <div class="row">
+                    <div class="portofolio-item">
+                        <img src="https://dummyimage.com/300x200/db7d25/fff.png&text=Proyek+1" alt="Proyek 1">
+                        <h4>Box Element</h4>
+                        <p>Latihan box element dengan float dan clear.</p>
+                    </div>
+                    <div class="portofolio-item">
+                        <img src="https://dummyimage.com/300x200/3e73e6/fff.png&text=Proyek+2" alt="Proyek 2">
+                        <h4>Layout Sederhana</h4>
+                        <p>Layout web dengan header, menu, konten, sidebar, dan footer.</p>
+                    </div>
+                    <div class="portofolio-item">
+                        <img src="https://dummyimage.com/300x200/71e6d4/fff.png&text=Proyek+3" alt="Proyek 3">
+                        <h4>Form Kontak</h4>
+                        <p>Halaman kontak berisi form nama, email, dan pesan.</p>
+                    </div>
+                </div>
+            </section>
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Keahlian</h3>
+                    <ul>
+                        <li><a href="#">HTML5</a></li>
+                        <li><a href="#">CSS3</a></li>
+                        <li><a href="#">Basis Data</a></li>
+                        <li><a href="#">Algoritma dan Pemrograman</a></li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Tentang Praktikum</h3>
+                    <p>Praktikum 4 Pemrograman Web: CSS Layout, dibimbing oleh Agung Nugroho.</p>
+                </div>
+            </aside>
+        </section>
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html
