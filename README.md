@@ -123,7 +123,7 @@ Hasil: Div 4 (biru) tampil **memanjang di bawah** ketiga div sebelumnya.
 | `both` | Tidak boleh ada float di kedua sisi | Turun ke bawah (sama seperti `left`) |
 | `none` | Tidak ada aturan clear | Sama seperti `right`: tidak turun, tertimpa Div 1-3 |
 
-**Screenshot:**
+<img width="700" height="800" alt="01-box-element" src="https://github.com/user-attachments/assets/3f72aa70-94a3-4888-a377-791d872e931e" />
 
 ![Box element float dan clear](screenshots/01-box-element.png)
 
@@ -289,7 +289,7 @@ Gambar float, sehingga teks mengalir di sampingnya. Kelas `right-img` menggeser 
 
 > Catatan perbaikan dari modul: di modul, HTML memakai `class="rightimg"` sedangkan CSS memakai `.right-img`, jadi tidak cocok. Saya samakan menjadi `right-img`. Di modul juga ada selector `box img` yang kurang titik, saya perbaiki menjadi `.box img`.
 
-**Screenshot hasil akhir halaman Home:**
+<img width="1100" height="1395" alt="02-home" src="https://github.com/user-attachments/assets/d073bda0-3d51-4567-b099-b182dc05e1bb" />
 
 ![Halaman Home](screenshots/02-home.png)
 
@@ -304,6 +304,8 @@ Halaman About memakai kerangka layout yang sama (header, nav, wrapper, sidebar, 
 - **Portfolio**: tiga kartu proyek (gambar, judul, deskripsi singkat) yang berjajar tiga kolom memakai float.
 - **Sidebar**: widget keahlian dan info praktikum.
 
+<img width="1100" height="901" alt="03-about" src="https://github.com/user-attachments/assets/f0255d30-b552-4874-9743-d711a40819e6" />
+
 ![Halaman About](screenshots/03-about.png)
 
 ## Tugas 2 - Layout menu Contact (`kontak.html`)
@@ -316,6 +318,8 @@ Halaman Kontak berisi form dengan isian:
 - Tombol **Kirim Pesan**
 
 Setiap isian dipasangkan dengan `<label for="...">` supaya jika label diklik, kursor otomatis masuk ke kolom yang sesuai. Atribut `required` membuat kolom wajib diisi.
+
+<img width="1100" height="800" alt="04-kontak" src="https://github.com/user-attachments/assets/312eb16b-ae62-414a-ad7e-92f19c42a07a" />
 
 ![Halaman Kontak](screenshots/04-kontak.png)
 
